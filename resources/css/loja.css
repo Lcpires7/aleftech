@@ -1,0 +1,142 @@
+.main {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 6rem;
+    box-sizing: border-box;
+    padding-right: 6rem;
+}
+
+.banner {
+    display: flex;
+    width:100%;
+    height: 300px;
+    background-image: url("/resources/media/img/banner-loja-azul.png");
+    font-family: 'Bungee', cursive;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.icon-pesquisa {
+    width: 40px;
+}
+
+div.pesquisar  {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #92d050;
+}
+
+div.pesquisar input#input-pesquisa {
+    width: 100%;
+    height: 3rem;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid  black;
+    margin: 15px 0;
+    padding-left: 15px;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+div.pesquisar button{
+    width: 50px;
+    height: 50x;
+    margin: 15px 0;
+    border: 1px solid;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #92d050;
+    cursor: pointer;
+}
+
+/* Filtro */
+.filtro {
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+    width: 180px;
+    vertical-align: text-top;
+}
+
+.filtro h2 {
+    margin: 0 15px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.filtro ul, .filtro h2 {
+    font-family: sans-serif;
+}
+
+.filtro ul li{
+    margin: 10px 15px;
+}
+
+/* Secition dos produtos */
+
+section.exposicao {
+    width: 66%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+section.exposicao a{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin: 30px 20px;
+    text-decoration: none;
+}
+
+div.produto {
+    width: 150px;
+    height:200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align:top;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+a.primeira_coluna {
+    margin-left: 0 !important;
+}
+.primeira-linha{
+    margin-top: 0 !important;
+}
+
+.produto img {
+    width: 150px;
+}
+
+.anuncio {
+    border: black 1px solid;
+    width: 160px;
+    display: inline-block;
+    height:600px;
+    
+}
+
+.preco {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #92d050;
+    padding: 5px 0;
+    font-size: 1rem;
+    border-top: 1px solid black;
+}
+
+div.produto p.descricao {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: rgb(197, 197, 197);
+    font-family: sans-serif;
+}

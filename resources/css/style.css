@@ -1,0 +1,142 @@
+*
+
+.main{
+    min-height: calc(100vh - 70px);
+    padding-top: 70px;
+    margin: 0 6rem;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #92d050;
+    display: flex;
+    position: fixed;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-color: white;
+}
+
+.logo img {
+    width: 10rem;
+    margin-right: 6rem;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.menu ul li a, .minha-conta {
+    color: #707070;
+    text-decoration: none;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.menu ul li a:hover, .minha-conta:hover{
+  color: black;
+  border-bottom: solid 2px black;
+}
+
+img.icon {
+    width: 20px;
+    display: flex;
+    
+}
+
+.minha-conta {
+    padding-left: .2rem;
+    
+}
+
+.menu_icon {
+    display: flex;
+    margin-left: 6rem;
+    align-items: center;
+    justify-content:end;
+}
+
+/* Rodapé */
+
+.footer {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-color: #90d050;
+    border-top: solid 2px black;
+}
+
+footer.footer div.box1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+footer.footer div.box1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.mapa-do-site ul.menu-mapa li {
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1.5rem;
+}
+
+nav.mapa-do-site ul.menu-mapa li a, .lista-redes-socias li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: inline-block;
+}
+
+.box1, .box2, .box3 {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    border-left: 2px white dotted;
+}
+
+footer.footer div.box1 h2.razao-social {
+    margin-top: 0;}
+
+div.box2 h2, div.box3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+div.box3 li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+div.copyright p{
+    font-family: sans-serif;
+    text-align: center;
+    padding: .5rem 6rem;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,1 @@
+window.alert("Vascaino? Vaiscainos têm 50% de desconto em equipamentos cardio!")

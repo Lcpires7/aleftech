@@ -1,0 +1,64 @@
+.main{
+    margin: 0 0;
+}
+.box-video {
+    height: calc(100vh - 70px);
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+}
+
+.menu ul li a, .minha-conta {
+    /* color: white !important; */
+}
+
+.menu {
+    display: flex;
+}
+
+.caixa {
+    background-color: #92d050;
+    flex: 1;
+    border-radius: 50px;
+
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    box-sizing: border-box;
+}
+
+.section h1 {
+    color: #92d050;
+    font-family: 'Bungee', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-bottom: 50px;
+}
+
+.section h1, .section h2 {
+    text-align: center;
+}
+.section h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.caixa img {
+    width: 300px;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+
+.meio {
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,43 @@
+.main {
+    margin: 0 0;
+}
+
+div.texto-sobre-nos{
+    vertical-align: text-top;
+    width: 40%;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    height: calc(100vh - 70px);
+    font-family: sans-serif;
+}
+
+
+div.texto-sobre-nos h1{
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+div.texto-sobre-nos h2{
+    font-size: 1.43rem;
+}
+
+div.texto-sobre-nos h1, div.texto-sobre-nos h2, div.texto-sobre-nos p{
+    padding-left: 6rem;
+    margin-top: 30px;
+    padding-right: 40px;
+}
+
+div.texto-sobre-nos p {
+    line-height: 25px;
+    font-family: serif;
+    font-size: 1.2rem;
+}
+
+.main .imagem {
+    height: calc(100vh - 70px);
+    vertical-align: text-top;
+    width: 59.7%;
+    overflow: hidden;
+    display: inline-block;
+}
