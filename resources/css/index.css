@@ -16,17 +16,19 @@
 
 .menu {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .caixa {
     background-color: #92d050;
-    flex: 1;
+    /* flex: 1; */
     border-radius: 50px;
-
+    border: solid 2px pink;
 }
 
 .section {
-    height: 150vh;
+    height: calc(150vh - 140px);
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: 6rem;
@@ -52,6 +54,7 @@
 }
 
 section.section-banner {
+    height: calc(100vh - 70px);
     overflow: hidden;
 }
 
@@ -61,13 +64,30 @@ section.section-banner img{
 }
 
 .caixa img {
-    width: 300px;
+    width: 250px;
     border-radius: 50px;
     margin: 20px;
+    border: solid 2px pink;
 
 }
 
 .meio {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+/* --------- */
+
+.menu img {
+    display: inline-block;
+    width: 200px;
+    border-radius: 35px;
+    
+}
+
+.background-icon{
+    width: 300px;
+    background-color: #70be1c;
+    border-radius: 35px;
+    margin-bottom: 60px;
 }

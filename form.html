@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        .main{
+            display: flex;
+            padding-top: 3rem;
+            padding-left: 6rem;
+            padding-right: 6rem;
+            box-sizing: border-box;
+            height: 100vh;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        #texto{
+            box-sizing: border-box;
+            height: 260px;
+            width: 40%;
+            display: inline-block;
+            background-color: rgb(191, 187, 187);
+            padding: 50px 30px;
+    
+        }
+
+        #texto h1 {
+            margin-bottom: 30px;
+            color: navy;
+        }
+
+        #texto h2#zap {
+
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+
+        #texto h2#email {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+
+        #formulario {
+            width: 58%;
+            display: inline-block;
+        }
+
+        #formulario input {
+            width: 48%;
+            height: 2rem;
+            margin-bottom: 25px;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+
+        #formulario textarea {
+            width:98%;
+            height: 5rem;
+            padding-top: 10px;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+
+
+        #formulario button {
+            height: 2rem;
+            width: 98%;
+            background-color: navy;
+            color: white;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div id="texto">
+            <h1>Vamos Conversar?</h1>
+            <p>Preencha o formulário para que possamos avaliar a melhor maneira de lhe
+                 ajudar, respondendo ao seu
+                contato o mais rápido possível!
+            </p>
+
+            <h2 id="zap">Zap: +55 21 4002-8922</h2>
+            <h2 id="email">Batata@yahool.com</h2>
+        </div>
+        <div id="formulario">
+            <form action="">
+                <input type="text" placeholder="Nome Completo">
+                <input type="text" placeholder="Telefone">
+                <br>
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Assunto">
+                <br>
+                <textarea placeholder="Mensagem"></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
