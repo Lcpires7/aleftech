@@ -28,7 +28,7 @@
 }
 
 .section {
-    height: calc(150vh - 140px);
+    height: calc(175vh - 140px);
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: 6rem;
@@ -79,10 +79,20 @@ section.section-banner img{
 /* --------- */
 
 .menu img {
-    display: inline-block;
+    margin: 0 auto;
     width: 200px;
     border-radius: 35px;
     
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu a:hover {
+    color: white;
 }
 
 .background-icon{
@@ -90,4 +100,18 @@ section.section-banner img{
     background-color: #70be1c;
     border-radius: 35px;
     margin-bottom: 60px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-icon span {
+ 
+}
+
+.background-icon span p{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.5rem;
 }

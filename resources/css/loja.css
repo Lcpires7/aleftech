@@ -140,3 +140,23 @@ div.produto p.descricao {
     background-color: rgb(197, 197, 197);
     font-family: sans-serif;
 }
+
+#menu-catalogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.opcao {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 16.6%;
+    display: inline-block;
+    height: 50px;
+    border: 1px solid;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.verde {
+    background-color: #92d050;
+}
