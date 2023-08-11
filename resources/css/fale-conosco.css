@@ -1,45 +1,65 @@
-*{margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+*{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main{
-    display: flex;
     padding-top: 3rem;
     box-sizing: border-box;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-
 }
+
 #texto{
     box-sizing: border-box;
-    height: 260px;
+    height: 285px;
     width: 40%;
     display: inline-block;
-    background-color: rgb(191, 187, 187);
+    background-color: white;
     padding: 50px 30px;
+    border: #92d050 dotted 5px;
+    margin-right: 50px;
 
 }
 
 #texto h1 {
     margin-bottom: 30px;
-    color: navy;
+    color: #92d050;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-#texto h2#zap {
+#texto p#frase {
+    margin-bottom: 20px;
+   
+}
 
-    margin-top: 15px;
+#texto span img {
+    width:32px; height: 32px;
+    margin-right: 10px;
+}
+
+#texto span {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#texto p#zap {
+
     font-size: 1rem;
     font-weight: bold;
 }
 
-#texto h2#email {
-    margin-top: 10px;
+#texto p#zap a{
+    color: #707070;
+}
+
+#texto p#email {
     font-size: 1rem;
     font-weight: bold;
+}
+
+#texto p#email a{
+    color: #707070;
 }
 
 #formulario {
@@ -48,26 +68,36 @@
 }
 
 #formulario input {
-    width: 48%;
+    width: calc(50% - 7.5px);
     height: 2rem;
     margin-bottom: 25px;
     padding-left: 10px;
     box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1rem;
+
 }
 
 #formulario textarea {
-    width:98%;
+    width:100%;
     height: 5rem;
     padding-top: 10px;
     padding-left: 10px;
     box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1rem;
 }
 
 
 #formulario button {
-    height: 2rem;
-    width: 98%;
-    background-color: navy;
+    font-family: monospace;
+    height: 3rem;
+    width: 100%;
+    background-color: #92d050;
     color: white;
-    margin-top: 20px;
+    margin-top: 40px;
+    border: 1px #707070 solid;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
